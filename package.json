@@ -2,11 +2,10 @@
 	"name": "auth-backend",
 	"version": "1.0.0",
 	"main": "index.js",
-	"type": "module",
 	"license": "MIT",
 	"scripts": {
 		"dev": "tsnd --ignore-watch node_modules --respawn --transpile-only src/server.ts",
-		"start": "tsnd src/server.ts"
+		"start": "tsnd ./src/server.ts"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.17.10",
